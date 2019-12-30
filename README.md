@@ -10,19 +10,14 @@ This is the boilerplate for creating an API server in AdonisJs, it comes pre-con
 
 ## Setup
 
-Use the adonis command to install the blueprint
-
-```bash
-adonis new yardstick --api-only
+Star script strat.sh in shell
 ```
-
-or manually clone the repo and then run `npm install`.
-
-
-### Migrations
-
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
+bash start.sh
 ```
+o use
+```
+ -npm install
+ -copy or rename .env.example to .env
+ -adonis serve --dev
+```
+ For Swagger documentation go to http://{you-localhost}:3333/docs
