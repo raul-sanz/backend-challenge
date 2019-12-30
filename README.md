@@ -32,4 +32,10 @@ o use
  out/index.html
  ```
  
+ ### For Test execute in shell
+ 
+```
+  adonis test functional
+```
+ 
  #### PD: Database is host in DigitalOcean 
