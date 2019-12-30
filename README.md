@@ -8,6 +8,7 @@ This is the boilerplate for creating an API server in AdonisJs, it comes pre-con
 4. Lucid ORM
 5. Migrations and seeds
 
+
 ## Setup
 
 Star script strat.sh in shell
@@ -20,4 +21,15 @@ o use
  -copy or rename .env.example to .env
  -adonis serve --dev
 ```
- For Swagger documentation go to http://{you-localhost}:3333/docs
+ For api documentation in Swagger go to:
+ 
+ ```
+  http://{you-localhost}:3333/docs
+ ```
+ and for methods description open:
+ 
+ ```
+ out/index.html
+ ```
+ 
+ #### PD: Database is host in DigitalOcean 
